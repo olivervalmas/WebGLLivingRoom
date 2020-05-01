@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Model</title>
+</head>
+
+<body onload="main()">
+  <canvas id="webgl" width="800" height="500">
+    Please use a browser that supports "canvas".
+  </canvas>
+
+  <p>Controls:</p>
+  <p>Arrow keys -> Camera movement</p>
+  <p>Z -> Zoom In</p>
+  <p>X -> Zoom Out</p>
+  <p>W -> Move Chairs Out</p>
+  <p>S -> Move Chairs In</p>
+  <p>A -> Rotate Paintings Anticlockwise</p>
+  <p>D -> Rotate Paintings Clockwise</p>
+
+  <script src="lib/webgl-utils.js"></script>
+  <script src="lib/webgl-debug.js"></script>
+  <script src="lib/cuon-utils.js"></script>
+  <script src="lib/cuon-matrix.js"></script>
+  <script src="./model.js"></script>
+</body>
+
+</html>
